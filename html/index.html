@@ -45,11 +45,52 @@
     <ul class="nav">
         <li><a href="#"><i class='bx bx-calendar'></i>Расписание</a> </li>
         <li><a href="#"><i class='bx bx-radar'></i>Дорожная ситуация</a></li>
-        <li><a href="#"><i class='bx bx-user' ></i>Войти</a></li>
+        <li><a href="#openModal"><i class='bx bx-user'></i>Войти</a></li>
     </ul>
+    <!-- HTML модального окна -->
+    <div id="openModal" class="modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">Войдите в профиль</h3>
+                    <a href="#close" title="Close" class="close">×</a>
+                </div>
+                <div class="modal-body">
+                    <form class="reg">
+                        <input type="text" placeholder="Введите имя">
+                        <input type="tel" placeholder="Введите номер телефона">
+                        <input type="email" placeholder="Введите почту">
+                        <input type="text" placeholder="Введите название организации">
+                        <button><a href="#">Войти</a></button>
+                        <button><a href="#openModale">Нет профиля? Зарегайся!</a></button>
+                    </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
+    <div id="openModale" class="modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">Введите данные, чтобы зарегистрироваться</h3>
+                    <a href="#close" title="Close" class="close">×</a>
+                </div>
+                <div class="modal-body">
+                    <form class="reg">
+                        <input type="text" placeholder="Введите имя">
+                        <input type="tel" placeholder="Введите номер телефона">
+                        <input type="email" placeholder="Введите почту">
+                        <input type="text" placeholder="Введите название организации">
+                        <button><a href="#">Зарегистрироваться</a></button>
+                    </form>
+                </div>
+            </div>
+        </div>
 </section>
-<!--Подарки-->
+<!--Окно автобуса-->
 <section class="gifts">
     <section class="marsh">
         <div class="vmast">
